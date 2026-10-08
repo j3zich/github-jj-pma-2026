@@ -1,5 +1,6 @@
 package com.j3zich.myapp004objednavka
 
+import android.graphics.Rect
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -25,9 +26,15 @@ class MainActivity : AppCompatActivity() {
         //setContentView(R.layout.activity_main)
 
         // Ošetření systémových lišt – použije se přímo binding.main nebo binding.root
+        val basePadding = Rect(binding.main.paddingLeft, binding.main.paddingTop, binding.main.paddingRight, binding.main.paddingBottom)
         ViewCompat.setOnApplyWindowInsetsListener(binding.main) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            v.setPadding(
+                basePadding.left + systemBars.left,
+                basePadding.top + systemBars.top,
+                basePadding.right + systemBars.right,
+                basePadding.bottom + systemBars.bottom
+            )
             insets
         }
 
