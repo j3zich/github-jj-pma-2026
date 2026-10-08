@@ -69,5 +69,36 @@ class MainActivity : AppCompatActivity() {
 
 			}
 		}
+
+		updatePrice()
+		binding.rgTv.setOnCheckedChangeListener { _, _ -> updatePrice() }
+		binding.cbPanel.setOnCheckedChangeListener { _, _ -> updatePrice() }
+		binding.cbStand.setOnCheckedChangeListener { _, _ -> updatePrice() }
+		binding.cbSpeakers.setOnCheckedChangeListener { _, _ -> updatePrice() }
+	}
+
+	private fun updatePrice() {
+		val basePrice = when (binding.rgTv.checkedRadioButtonId) {
+			binding.rb65.id -> 25000
+			binding.rb55.id -> 18000
+			binding.rb43.id -> 12000
+			else -> 25000
+		}
+
+		val totalPriceCzk = basePrice +
+				(if (binding.cbPanel.isChecked) 3000 else 0) +
+				(if (binding.cbStand.isChecked) 1000 else 0) +
+				(if (binding.cbSpeakers.isChecked) 2000 else 0)
+
+		// Fixed rates for dev purposes
+		val exchangeRate = when (resources.configuration.locales[0].language) {
+			"en" -> 0.043
+			"de" -> 0.040
+			else -> 1.0
+		}
+
+		val totalPrice = (totalPriceCzk * exchangeRate).toInt()
+
+		binding.tvPrice.text = getString(R.string.price_format, totalPrice)
 	}
 }

@@ -11,4 +11,5 @@
 	<string name="check_box_panel">Better panel</string>
 	<string name="check_box_stand">Better stand</string>
 	<string name="textview_order_summary_placeholder">Order Summary:</string>
+	<string name="price_format">Price: $%d</string>
 </resources>

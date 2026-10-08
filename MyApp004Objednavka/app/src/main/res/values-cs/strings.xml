@@ -11,4 +11,5 @@
 	<string name="check_box_panel">Lepší panel</string>
 	<string name="check_box_stand">Lepší stojan</string>
 	<string name="textview_order_summary_placeholder">Souhrn Objednávky:</string>
+	<string name="price_format">Cena: %d Kč</string>
 </resources>

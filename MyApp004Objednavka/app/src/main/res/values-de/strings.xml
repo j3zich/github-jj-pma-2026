@@ -11,4 +11,5 @@
 	<string name="check_box_panel">Besseres Panel</string>
 	<string name="check_box_stand">Besserer Standfuß</string>
 	<string name="textview_order_summary_placeholder">Bestellübersicht:</string>
+	<string name="price_format">Preis: %d €</string>
 </resources>
