@@ -4,7 +4,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F3FF"
+    android:background="?attr/colorSurfaceVariant"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="24dp"
@@ -88,13 +88,16 @@
         android:layout_marginTop="20dp"
         android:background="#FFF59D"
         android:padding="16dp"
-        android:text="@string/textview_order_summary_text" />
+        android:text="@string/textview_order_summary_text"
+        android:textColor="@color/black" />
 
     <ImageView
         android:id="@+id/ivTV"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:padding="10sp"
         android:src="@drawable/tv_65" />
 
 
