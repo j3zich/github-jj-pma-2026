@@ -51,10 +51,10 @@ class MainActivity : AppCompatActivity() {
 			val stand = binding.cbStand.isChecked
 			val speakers = binding.cbSpeakers.isChecked
 
-			val orderText = "Souhrn Objednávky: " + "${tv.text}" +
-					(if (panel) ", panel" else "") +
-					(if (stand) ", stojan" else "") +
-					(if (speakers) ", reproduktory" else "")
+			val orderText = getString(R.string.textview_order_summary_text, tv.text) +
+					(if (panel) ", " + binding.cbPanel.text else "") +
+					(if (stand) ", " + binding.cbStand.text else "") +
+					(if (speakers) ", " + binding.cbSpeakers.text else "")
 
 			binding.tvOrder.text = orderText
 

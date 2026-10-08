@@ -1,0 +1,14 @@
+<resources>
+	<string name="app_name">MyApp004Objednavka</string>
+	<string name="textview_order_summary_text">Souhrn Objednávky: %s</string>
+	<string name="button_make_order_text">Objednat</string>
+	<string name="text_view_heading">Objednávka TV</string>
+	<string name="text_view_description">Jakou TV chcete vybrat?</string>
+	<string name="radio_button_65_inch">65 palců</string>
+	<string name="radio_button_55_inch">55 palců</string>
+	<string name="radio_button_43_inch">43 palců</string>
+	<string name="check_box_speakers">Lepší reproduktory</string>
+	<string name="check_box_panel">Lepší panel</string>
+	<string name="check_box_stand">Lepší stojan</string>
+	<string name="textview_order_summary_placeholder">Souhrn Objednávky:</string>
+</resources>

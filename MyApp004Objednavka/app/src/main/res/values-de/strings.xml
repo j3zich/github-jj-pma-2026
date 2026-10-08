@@ -1,0 +1,14 @@
+<resources>
+	<string name="app_name">MyApp004Objednavka</string>
+	<string name="textview_order_summary_text">Bestellübersicht: %s</string>
+	<string name="button_make_order_text">Bestellen</string>
+	<string name="text_view_heading">TV-Bestellung</string>
+	<string name="text_view_description">Welchen Fernseher möchten Sie?</string>
+	<string name="radio_button_65_inch">65 Zoll</string>
+	<string name="radio_button_55_inch">55 Zoll</string>
+	<string name="radio_button_43_inch">43 Zoll</string>
+	<string name="check_box_speakers">Bessere Lautsprecher</string>
+	<string name="check_box_panel">Besseres Panel</string>
+	<string name="check_box_stand">Besserer Standfuß</string>
+	<string name="textview_order_summary_placeholder">Bestellübersicht:</string>
+</resources>
