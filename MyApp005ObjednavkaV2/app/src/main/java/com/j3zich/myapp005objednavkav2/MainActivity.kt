@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 				binding.rb1.id -> binding.rb1.text.toString()
 				binding.rb2.id -> binding.rb2.text.toString()
 				binding.rb3.id -> binding.rb3.text.toString()
-				else -> "Unknown TV"
+				else -> getString(R.string.unknown_tv)
 			}
 
 			val intent = Intent(this, SummaryActivity::class.java)
@@ -78,6 +78,6 @@ class MainActivity : AppCompatActivity() {
 	}
 
 	private fun updatePrice() {
-		binding.tvTotalPrice.text = "${currentPrice()} Kč"
+		binding.tvTotalPrice.text = getString(R.string.price_format, currentPrice())
 	}
 }

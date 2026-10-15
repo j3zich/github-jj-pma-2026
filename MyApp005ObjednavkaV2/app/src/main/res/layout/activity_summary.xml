@@ -20,7 +20,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="32dp"
-			android:text="Order Summary"
+			android:text="@string/summary_heading"
 			android:textSize="28sp"
 			android:textStyle="bold"
 			app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +30,7 @@
 
 		<TextView
 			android:id="@+id/tvSelectedTv"
-			android:text="Selected TV: "
+			android:text="@string/summary_selected_tv"
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="42dp"
@@ -42,7 +42,7 @@
 
 		<TextView
 			android:id="@+id/tvExtras"
-			android:text="Extras:\n- none"
+			android:text="@string/summary_extras"
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="24dp"
@@ -54,7 +54,7 @@
 
 		<TextView
 			android:id="@+id/tvFinalPrice"
-			android:text="Total price: 0 Kč"
+			android:text="@string/summary_final_price"
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="42dp"
@@ -73,7 +73,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="42dp"
-			android:text="Terms and Conditions"
+			android:text="@string/summary_terms_title"
 			android:textSize="20sp"
 			android:textStyle="bold"
 			app:layout_constraintStart_toStartOf="parent"
@@ -85,7 +85,7 @@
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="16dp"
-			android:text="1. INTRODUCTORY PROVISIONS\nThese terms and conditions govern the mutual rights and obligations of the contracting parties arising in connection with or on the basis of a purchase contract concluded between the seller and the buyer through an online store.\n\n2. CONCLUSION OF THE PURCHASE CONTRACT\nAll presentation of goods placed in the web interface of the store is for information purposes only and the seller is not obliged to conclude a purchase contract regarding these goods. The purchase contract is formed by the buyer sending an order and the seller accepting it.\n\n3. PRICE OF GOODS AND PAYMENT TERMS\nThe buyer may pay the price of the goods and any costs associated with their delivery under the purchase contract to the seller by bank transfer to the seller\'s account, or cash on delivery upon receipt.\n\n4. WITHDRAWAL FROM THE PURCHASE CONTRACT\nThe buyer acknowledges that, according to the provisions of the Civil Code, it is not possible, among other things, to withdraw from a purchase contract for goods that were modified according to the buyer\'s wishes or for their person.\n\n5. RIGHTS FROM DEFECTIVE PERFORMANCE\nThe rights and obligations of the contracting parties regarding rights from defective performance are governed by the relevant generally binding regulations.\n\n6. PROTECTION OF PERSONAL DATA\nThe protection of personal data of the buyer who is a natural person is provided in accordance with the GDPR. The buyer agrees to the processing of the following personal data: name and surname, residential address, identification number, tax identification number, e-mail address and telephone number.\n\n7. FINAL PROVISIONS\nIf the relationship established by the purchase contract contains an international (foreign) element, the parties agree that the relationship is governed by Czech law. This does not affect the consumer rights arising from generally binding legal regulations."
+			android:text="@string/summary_terms_text"
 			android:textSize="14sp"
 			app:layout_constraintEnd_toEndOf="parent"
 			app:layout_constraintStart_toStartOf="parent"
@@ -98,7 +98,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginTop="32dp"
 			android:layout_marginBottom="32dp"
-			android:text="Back to edit"
+			android:text="@string/button_back_text"
 			android:textSize="20sp"
 			app:layout_constraintBottom_toBottomOf="parent"
 			app:layout_constraintEnd_toEndOf="parent"

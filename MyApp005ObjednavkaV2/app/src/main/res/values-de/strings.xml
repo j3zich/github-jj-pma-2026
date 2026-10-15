@@ -1,0 +1,22 @@
+<resources>
+	<string name="app_name">MyApp005ObjednavkaV2</string>
+	<string name="text_view_heading">TV-Bestellung</string>
+	<string name="text_view_description">Welchen Fernseher möchten Sie bestellen?</string>
+	<string name="radio_button_43_inch">43 Zoll</string>
+	<string name="radio_button_55_inch">55 Zoll</string>
+	<string name="radio_button_65_inch">65 Zoll</string>
+	<string name="check_box_speakers">Bessere Lautsprecher</string>
+	<string name="check_box_panel">Besseres Panel</string>
+	<string name="check_box_stand">Besserer Standfuß</string>
+	<string name="button_make_order_text">Bestellen</string>
+	<string name="price_format">Gesamt:\n%d Kč</string>
+	<string name="summary_heading">Bestellübersicht</string>
+	<string name="summary_selected_tv">Gewählter Fernseher: %s</string>
+	<string name="unknown_tv">Unbekannter Fernseher</string>
+	<string name="summary_extras">Zusatzausstattung:</string>
+	<string name="summary_extras_none">keine</string>
+	<string name="summary_final_price">Gesamtpreis: %d Kč</string>
+	<string name="summary_terms_title">Allgemeine Geschäftsbedingungen</string>
+	<string name="summary_terms_text">1. EINLEITENDE BESTIMMUNGEN\nDiese Geschäftsbedingungen regeln die gegenseitigen Rechte und Pflichten der Vertragsparteien, die im Zusammenhang mit einem zwischen Verkäufer und Käufer über einen Online-Shop geschlossenen Kaufvertrag oder auf dessen Grundlage entstehen.\n\n2. ABSCHLUSS DES KAUFVERTRAGS\nDie gesamte Präsentation der Waren auf der Weboberfläche des Shops dient nur zur Information, und der Verkäufer ist nicht verpflichtet, über diese Waren einen Kaufvertrag zu schließen. Der Kaufvertrag kommt durch das Absenden der Bestellung durch den Käufer und deren Annahme durch den Verkäufer zustande.\n\n3. WARENPREIS UND ZAHLUNGSBEDINGUNGEN\nDen Preis der Ware und die mit der Lieferung verbundenen Kosten gemäß Kaufvertrag kann der Käufer per Überweisung auf das Konto des Verkäufers oder per Nachnahme bei Erhalt begleichen.\n\n4. RÜCKTRITT VOM KAUFVERTRAG\nDer Käufer nimmt zur Kenntnis, dass nach den Bestimmungen des Bürgerlichen Gesetzbuchs unter anderem nicht vom Kaufvertrag über Waren zurückgetreten werden kann, die nach den Wünschen des Käufers oder für dessen Person angepasst wurden.\n\n5. RECHTE AUS MANGELHAFTER LEISTUNG\nDie Rechte und Pflichten der Vertragsparteien hinsichtlich der Rechte aus mangelhafter Leistung richten sich nach den einschlägigen allgemein verbindlichen Vorschriften.\n\n6. SCHUTZ PERSONENBEZOGENER DATEN\nDer Schutz der personenbezogenen Daten des Käufers, der eine natürliche Person ist, erfolgt im Einklang mit der DSGVO. Der Käufer stimmt der Verarbeitung folgender personenbezogener Daten zu: Vor- und Nachname, Wohnadresse, Identifikationsnummer, Steueridentifikationsnummer, E-Mail-Adresse und Telefonnummer.\n\n7. SCHLUSSBESTIMMUNGEN\nEnthält das durch den Kaufvertrag begründete Verhältnis ein internationales (ausländisches) Element, vereinbaren die Parteien, dass das Verhältnis tschechischem Recht unterliegt. Die sich aus allgemein verbindlichen Rechtsvorschriften ergebenden Verbraucherrechte bleiben hiervon unberührt.</string>
+	<string name="button_back_text">Zurück zur Bearbeitung</string>
+</resources>

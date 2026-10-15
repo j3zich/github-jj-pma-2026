@@ -1,0 +1,22 @@
+<resources>
+	<string name="app_name">MyApp005ObjednavkaV2</string>
+	<string name="text_view_heading">Objednávka TV</string>
+	<string name="text_view_description">Jakou TV chcete objednat?</string>
+	<string name="radio_button_43_inch">43 palců</string>
+	<string name="radio_button_55_inch">55 palců</string>
+	<string name="radio_button_65_inch">65 palců</string>
+	<string name="check_box_speakers">Lepší reproduktory</string>
+	<string name="check_box_panel">Lepší panel</string>
+	<string name="check_box_stand">Lepší stojan</string>
+	<string name="button_make_order_text">Objednat</string>
+	<string name="price_format">Celkem:\n%d Kč</string>
+	<string name="summary_heading">Rekapitulace objednávky</string>
+	<string name="summary_selected_tv">Vybraná TV: %s</string>
+	<string name="unknown_tv">Neznámá TV</string>
+	<string name="summary_extras">Příplatková výbava:</string>
+	<string name="summary_extras_none">žádná</string>
+	<string name="summary_final_price">Celková cena: %d Kč</string>
+	<string name="summary_terms_title">Obchodní podmínky</string>
+	<string name="summary_terms_text">1. ÚVODNÍ USTANOVENÍ\nTyto obchodní podmínky upravují vzájemná práva a povinnosti smluvních stran vzniklé v souvislosti nebo na základě kupní smlouvy uzavírané mezi prodávajícím a kupujícím prostřednictvím internetového obchodu.\n\n2. UZAVŘENÍ KUPNÍ SMLOUVY\nVeškerá prezentace zboží umístěná ve webovém rozhraní obchodu je informativního charakteru a prodávající není povinen uzavřít kupní smlouvu ohledně tohoto zboží. Kupní smlouva vzniká odesláním objednávky kupujícím a jejím přijetím prodávajícím.\n\n3. CENA ZBOŽÍ A PLATEBNÍ PODMÍNKY\nCenu zboží a případné náklady spojené s dodáním zboží dle kupní smlouvy může kupující uhradit prodávajícímu bezhotovostně převodem na účet prodávajícího, nebo dobírkou při převzetí.\n\n4. ODSTOUPENÍ OD KUPNÍ SMLOUVY\nKupující bere na vědomí, že dle ustanovení občanského zákoníku nelze mimo jiné odstoupit od kupní smlouvy o dodávce zboží, které bylo upraveno podle přání kupujícího nebo pro jeho osobu.\n\n5. PRÁVA Z VADNÉHO PLNĚNÍ\nPráva a povinnosti smluvních stran ohledně práv z vadného plnění se řídí příslušnými obecně závaznými předpisy.\n\n6. OCHRANA OSOBNÍCH ÚDAJŮ\nOchrana osobních údajů kupujícího, který je fyzickou osobou, je poskytována v souladu s nařízením GDPR. Kupující souhlasí se zpracováním těchto svých osobních údajů: jméno a příjmení, adresa bydliště, identifikační číslo, daňové identifikační číslo, adresa elektronické pošty a telefonní číslo.\n\n7. ZÁVĚREČNÁ USTANOVENÍ\nPokud vztah založený kupní smlouvou obsahuje mezinárodní (zahraniční) prvek, pak strany sjednávají, že vztah se řídí českým právem. Tímto nejsou dotčena práva spotřebitele vyplývající z obecně závazných právních předpisů.</string>
+	<string name="button_back_text">Zpět k úpravě</string>
+</resources>

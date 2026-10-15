@@ -1,3 +1,22 @@
 <resources>
 	<string name="app_name">MyApp005ObjednavkaV2</string>
+	<string name="text_view_heading">TV Order</string>
+	<string name="text_view_description">Which TV do you want?</string>
+	<string name="radio_button_43_inch">43 inches</string>
+	<string name="radio_button_55_inch">55 inches</string>
+	<string name="radio_button_65_inch">65 inches</string>
+	<string name="check_box_speakers">Better speakers</string>
+	<string name="check_box_panel">Better panel</string>
+	<string name="check_box_stand">Better stand</string>
+	<string name="button_make_order_text">Order</string>
+	<string name="price_format">Total:\n%d Kč</string>
+	<string name="summary_heading">Order Summary</string>
+	<string name="summary_selected_tv">Selected TV: %s</string>
+	<string name="unknown_tv">Unknown TV</string>
+	<string name="summary_extras">Extras:</string>
+	<string name="summary_extras_none">none</string>
+	<string name="summary_final_price">Total price: %d Kč</string>
+	<string name="summary_terms_title">Terms and Conditions</string>
+	<string name="summary_terms_text">1. INTRODUCTORY PROVISIONS\nThese terms and conditions govern the mutual rights and obligations of the contracting parties arising in connection with or on the basis of a purchase contract concluded between the seller and the buyer through an online store.\n\n2. CONCLUSION OF THE PURCHASE CONTRACT\nAll presentation of goods placed in the web interface of the store is for information purposes only and the seller is not obliged to conclude a purchase contract regarding these goods. The purchase contract is formed by the buyer sending an order and the seller accepting it.\n\n3. PRICE OF GOODS AND PAYMENT TERMS\nThe buyer may pay the price of the goods and any costs associated with their delivery under the purchase contract to the seller by bank transfer to the seller\'s account, or cash on delivery upon receipt.\n\n4. WITHDRAWAL FROM THE PURCHASE CONTRACT\nThe buyer acknowledges that, according to the provisions of the Civil Code, it is not possible, among other things, to withdraw from a purchase contract for goods that were modified according to the buyer\'s wishes or for their person.\n\n5. RIGHTS FROM DEFECTIVE PERFORMANCE\nThe rights and obligations of the contracting parties regarding rights from defective performance are governed by the relevant generally binding regulations.\n\n6. PROTECTION OF PERSONAL DATA\nThe protection of personal data of the buyer who is a natural person is provided in accordance with the GDPR. The buyer agrees to the processing of the following personal data: name and surname, residential address, identification number, tax identification number, e-mail address and telephone number.\n\n7. FINAL PROVISIONS\nIf the relationship established by the purchase contract contains an international (foreign) element, the parties agree that the relationship is governed by Czech law. This does not affect the consumer rights arising from generally binding legal regulations.</string>
+	<string name="button_back_text">Back to edit</string>
 </resources>

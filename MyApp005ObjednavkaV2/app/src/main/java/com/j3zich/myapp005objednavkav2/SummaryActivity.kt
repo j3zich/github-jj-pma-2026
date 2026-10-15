@@ -22,38 +22,38 @@ class SummaryActivity : AppCompatActivity() {
 			insets
 		}
 
-		val tvName = intent.getStringExtra("EXTRA_TV_NAME") ?: "Unknown TV"
+		val tvName = intent.getStringExtra("EXTRA_TV_NAME") ?: getString(R.string.unknown_tv)
 		val totalPrice = intent.getIntExtra("EXTRA_TOTAL_PRICE", 0)
 
 		val hasSpeakers = intent.getBooleanExtra("EXTRA_HAS_SPEAKERS", false)
 		val hasPanel = intent.getBooleanExtra("EXTRA_HAS_PANEL", false)
 		val hasStand = intent.getBooleanExtra("EXTRA_HAS_STAND", false)
 
-		var extrasText = "Extras:\n"
+		var extrasText = getString(R.string.summary_extras) + "\n"
 		var hasAnyExtra = false
 
 		if (hasSpeakers) {
-			extrasText += "- Better speakers\n"
+			extrasText += "- " + getString(R.string.check_box_speakers) + "\n"
 			hasAnyExtra = true
 		}
 
 		if (hasPanel) {
-			extrasText += "- Better panel\n"
+			extrasText += "- " + getString(R.string.check_box_panel) + "\n"
 			hasAnyExtra = true
 		}
 
 		if (hasStand) {
-			extrasText += "- Better stand\n"
+			extrasText += "- " + getString(R.string.check_box_stand) + "\n"
 			hasAnyExtra = true
 		}
 
 		if (!hasAnyExtra) {
-			extrasText += "- none"
+			extrasText += "- " + getString(R.string.summary_extras_none)
 		}
 
-		binding.tvSelectedTv.text = "Selected TV: $tvName"
+		binding.tvSelectedTv.text = getString(R.string.summary_selected_tv, tvName)
 		binding.tvExtras.text = extrasText
-		binding.tvFinalPrice.text = "Total price: $totalPrice Kč"
+		binding.tvFinalPrice.text = getString(R.string.summary_final_price, totalPrice)
 
 		binding.btnBack.setOnClickListener {
 			finish()
