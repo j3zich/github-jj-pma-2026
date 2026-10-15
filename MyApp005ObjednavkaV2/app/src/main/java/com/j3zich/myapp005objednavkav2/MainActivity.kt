@@ -1,5 +1,6 @@
 package com.j3zich.myapp005objednavkav2
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -32,6 +33,23 @@ class MainActivity : AppCompatActivity() {
 		binding.chb1.setOnCheckedChangeListener { _, _ -> updatePrice() }
 		binding.chb2.setOnCheckedChangeListener { _, _ -> updatePrice() }
 		binding.chb3.setOnCheckedChangeListener { _, _ -> updatePrice() }
+
+		binding.btnOrder.setOnClickListener {
+			val tvName = when (binding.rgParameters.checkedRadioButtonId) {
+				binding.rb1.id -> binding.rb1.text.toString()
+				binding.rb2.id -> binding.rb2.text.toString()
+				binding.rb3.id -> binding.rb3.text.toString()
+				else -> "Unknown TV"
+			}
+
+			val intent = Intent(this, SummaryActivity::class.java)
+			intent.putExtra("EXTRA_TV_NAME", tvName)
+			intent.putExtra("EXTRA_TOTAL_PRICE", currentPrice())
+			intent.putExtra("EXTRA_HAS_SPEAKERS", binding.chb1.isChecked)
+			intent.putExtra("EXTRA_HAS_PANEL", binding.chb2.isChecked)
+			intent.putExtra("EXTRA_HAS_STAND", binding.chb3.isChecked)
+			startActivity(intent)
+		}
 	}
 
 	private fun updateImage() {
