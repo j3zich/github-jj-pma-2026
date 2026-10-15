@@ -5,17 +5,149 @@
 	android:id="@+id/main"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
+	android:background="?attr/colorSurfaceVariant"
 	tools:context=".MainActivity"
 	>
 
 	<TextView
+		android:id="@+id/twTitle"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="Hello World!"
-		app:layout_constraintBottom_toBottomOf="parent"
+		android:layout_marginTop="56dp"
+		android:text="Objednávka TV"
+		android:textSize="32sp"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toTopOf="parent"
+		/>
+
+	<TextView
+		android:id="@+id/twDescription"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Jakou TV chcete objednat?"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/twTitle"
+		/>
+
+	<RadioGroup
+		android:id="@+id/rgParameters"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:orientation="horizontal"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/twDescription"
+		>
+
+		<RadioButton
+			android:id="@+id/rb1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:text="43 inch"
+			/>
+
+		<RadioButton
+			android:id="@+id/rb2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="55 inch"
+			/>
+
+		<RadioButton
+			android:id="@+id/rb3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="65 inch"
+			/>
+	</RadioGroup>
+
+	<CheckBox
+		android:id="@+id/chb1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="24dp"
+		android:text="Better speakers"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/rgParameters"
+		/>
+
+	<CheckBox
+		android:id="@+id/chb2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:text="Better panel"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/chb1"
+		/>
+
+	<CheckBox
+		android:id="@+id/chb3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:text="Better stand"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/chb2"
+		/>
+
+	<Button
+		android:id="@+id/btnOrder"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="16dp"
+		android:text="Order"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/chb3"
+		/>
+
+	<TextView
+		android:id="@+id/twSummary"
+		android:layout_width="120dp"
+		android:layout_height="0dp"
+		android:layout_marginEnd="40dp"
+		android:background="#FFF59D"
+		android:gravity="center"
+		android:padding="16dp"
+		android:text="Summary"
+		android:textColor="@color/black"
+		app:layout_constraintBottom_toBottomOf="@+id/chb3"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="@+id/chb1"
+		/>
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="350dp"
+		android:layout_height="200dp"
+		android:layout_marginBottom="40dp"
+		android:background="@color/white"
+		android:padding="10sp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.524"
+		app:layout_constraintStart_toStartOf="parent"
+		app:srcCompat="@drawable/tv_43"
+		/>
+
+	<TextView
+		android:id="@+id/tvTotalPrice"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="12000 Kč"
+		android:textSize="24sp"
+		app:layout_constraintBottom_toBottomOf="@+id/btnOrder"
+		app:layout_constraintEnd_toEndOf="@+id/twSummary"
+		app:layout_constraintStart_toStartOf="@+id/twSummary"
+		app:layout_constraintTop_toTopOf="@+id/btnOrder"
 		/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
