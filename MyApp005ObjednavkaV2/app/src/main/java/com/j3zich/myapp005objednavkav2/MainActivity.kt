@@ -22,7 +22,26 @@ class MainActivity : AppCompatActivity() {
 			insets
 		}
 
+		updateImage()
 		updatePrice()
+
+		binding.rgParameters.setOnCheckedChangeListener { _, _ ->
+			updateImage()
+			updatePrice()
+		}
+		binding.chb1.setOnCheckedChangeListener { _, _ -> updatePrice() }
+		binding.chb2.setOnCheckedChangeListener { _, _ -> updatePrice() }
+		binding.chb3.setOnCheckedChangeListener { _, _ -> updatePrice() }
+	}
+
+	private fun updateImage() {
+		val drawableRes = when (binding.rgParameters.checkedRadioButtonId) {
+			binding.rb1.id -> R.drawable.tv_43
+			binding.rb2.id -> R.drawable.tv_55
+			binding.rb3.id -> R.drawable.tv_65
+			else -> R.drawable.tv_43
+		}
+		binding.imageView.setImageResource(drawableRes)
 	}
 
 	private fun currentPrice(): Int {
