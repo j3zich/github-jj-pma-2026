@@ -61,6 +61,7 @@
 			android:background="#81D4FA"
 			android:gravity="center"
 			android:padding="16dp"
+			android:textColor="@color/black"
 			android:textSize="24sp"
 			android:textStyle="bold"
 			app:layout_constraintEnd_toEndOf="parent"
